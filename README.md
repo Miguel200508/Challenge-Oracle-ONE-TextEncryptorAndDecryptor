@@ -3,4 +3,6 @@ El siguiente Proyecto es un Challenge de Oracle ONE. Un encriptador y desencript
 
 Este proyecto se realizó con los siguientes lenguajes de programación:
 
+- __JavaScript__
+
 

@@ -1,0 +1,170 @@
+.body {
+    position: relative;
+    width: 1800px;
+    height: 800px;
+    background-color: #E9ECF8;
+}
+
+.logoAlura {
+
+    padding: 0px;
+    position: absolute;
+    width: 49px;
+    height: 46px;
+    
+}
+
+
+.siderbar {
+    grid-row: span 2;
+    padding-top: 3px;
+    grid-column: span -1;
+}
+
+.boxtextarea_1 {
+
+    font-size: 20px;
+    padding-top: 39px;
+    font-family: 'Inter';
+    background-color: #E9ECF8;
+    width: 794px;
+    height: 620px;
+    border: none;
+    resize: none;
+    outline: none;
+    color: #0A3871;
+}
+
+.boxtextarea_2 {
+
+    font-size: 20px;
+    display: flex;
+    padding-top: 2px;
+    width: 500px;
+    height: 830px;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    resize: none;
+    outline: none;
+    color: #0A3871;
+    border-radius: 14px;
+}
+
+.container {
+
+    padding-top: 2px;
+    padding-left: 280px;
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+                             
+}
+
+
+.content {
+    grid-column: span 2;
+}
+
+.footer {
+    background: #12203E;
+    color: #FFF;
+    grid-column: span 3;
+    height: 20px;
+}
+
+.container header, aside, main {
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.button button {
+
+    padding-top: 13px;
+    width: 400px;
+    padding: 22px;
+    font-size: medium;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+.button_1 {
+    background-color: #0A3871;
+    color: #FFF;
+    border-color: #0A3871;
+}
+
+.button_2 {
+    color: #0A3871;
+    border-color: #0A3871;
+}
+
+
+.siderbar button {
+
+    padding-top: 13px;
+    width: 400px;
+    padding: 22px;
+    font-size: medium;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 900;
+}
+
+
+.button_3 {
+
+    color: #0A3871;
+    border-color: #0A3871;
+    position: absolute;
+    top: 96%;
+    left: 75%;
+    transform: translate(-32%, -50%);
+}
+
+.button_4 {
+
+    background-color: #0A3871;
+    color: #FFF;
+    border-color: #0A3871;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 86%;
+    left: 75%;
+    transform: translate(-32%, -50%);
+}
+
+.siderbar img {
+
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    position: absolute;
+    top: 42%;
+    left: 75%;
+    transform: translate(-30%, -50%);
+}
+
+.siderbar p {
+    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    position: absolute;
+    top: 63%;
+    left: 75%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    font-size: 14px;
+    color: #343A40;
+    font-weight: 350;
+}
+
+

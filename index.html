@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto | ONE EDUCATION</title>
+    <link rel="icon" type="image/x-icon" href="../proyect_encryptor/imagenes/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="js/all.min.js"></script>
+    <script src="encryptor.js"></script>
+</head>
+
+<body class="body" onload="clearTextarea()">
+    <header class="header">
+        <img class="logoAlura" src="../proyect_encryptor/imagenes/alura-logotipo.png">
+    </header>
+    <div class="container">
+        <main class="content">
+            <textarea id="boxtextarea_1" class="boxtextarea_1" placeholder="Ingrese el texto aquí" oninput="overallAction()"></textarea>
+            <p class="ruler"><i class="fa-solid fa-circle-exclamation"></i> Solo letras minúsculas y sin acentos.</p>
+        </main>
+        <aside class="siderbar">
+            <textarea id="boxtextarea_2" class="boxtextarea_2" placeholder="" readonly></textarea>
+                <img id="img_muñeco"  src="../proyect_encryptor/imagenes/Muñeco_Unic.png" class="img_muñeco">
+                <p id="text_below_image"><strong>Ningún mensaje fue encontrado</strong> <br>Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button id="button_3" class="button_3" onclick="clearButton()">Limpiar</button>
+                <button id="button_4" class="button_4" onclick="copyButton()">Copiar</button> 
+        </aside>
+        <div class="button">
+            <button class="button_1" onclick="encryptorText();">Encriptar</button>
+        </div>
+        <div class="button">
+            <button class="button_2" onclick="decryptorText()">Desencriptar</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -11,10 +11,10 @@ La funcionalidad de este aplicativo es encriptar y desencriptar textos en minús
 
 Las "__llaves__" de encriptación que uticé fueron las siguientes:
 
-La letra "__e__" es convertida para "__enter__"
-La letra "__i__" es convertida para "__imes__"
-La letra "__a__" es convertida para "__ai__"
-La letra "__o__" es convertida para "__ober__"
-La letra "__u__" es convertida para "__ufat__"
+- La letra "__e__" es convertida para "__enter__"
+- La letra "__i__" es convertida para "__imes__"
+- La letra "__a__" es convertida para "__ai__"
+- La letra "__o__" es convertida para "__ober__"
+- La letra "__u__" es convertida para "__ufat__"
 
 

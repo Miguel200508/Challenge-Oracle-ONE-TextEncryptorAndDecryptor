@@ -3,6 +3,6 @@ El siguiente Proyecto es un Challenge de Oracle ONE. Un encriptador y desencript
 
 Este proyecto se realizó con los siguientes lenguajes de programación:
 
-- __JavaScript__
+- __JavaScript__Copy code![Logo de JavaScript](./imagenes/JavaScript-logo-png)
 
 

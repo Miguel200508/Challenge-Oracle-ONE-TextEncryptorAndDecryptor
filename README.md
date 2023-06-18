@@ -7,6 +7,6 @@ Este proyecto se realizó con los siguientes lenguajes de programación:
 - __CSS__
 - __HTML__
 
-  La funcionalidad de este aplicativo es encriptar y desencriptar textos en minúsculas (no encripta y desencripta texto en mayúsculas, caracteres especiales o numericos).
+La funcionalidad de este aplicativo es encriptar y desencriptar textos en minúsculas (__no encripta y desencripta texto en mayúsculas, caracteres especiales o numericos__).
 
 
